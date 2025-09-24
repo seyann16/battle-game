@@ -1,6 +1,6 @@
-const Warrior = require("./Warrior");
-const Mage = require("./Mage");
-const Archer = require("./Archer");
+const Warrior = require("./characters/Warrior");
+const Mage = require("./characters/Mage");
+const Archer = require("./characters/Archer");
 
 // Game class to manage the battle
 function BattleGame() {
