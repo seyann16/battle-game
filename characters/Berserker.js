@@ -1,4 +1,3 @@
-const Character = require("./Character");
 const Warrior = require("./Warrior");
 
 // Level 2: Specialized Warriors
@@ -34,3 +33,5 @@ Berserker.prototype.attack = function(target) {
     // Call parent method using prototype chain
     return Warrior.prototype.attack.call(this, target);
 };
+
+module.exports = Berserker;
