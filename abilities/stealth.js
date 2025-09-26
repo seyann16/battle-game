@@ -23,3 +23,4 @@ const StealthMixin = {
 
 // Apply stealth to archers
 Object.assign(Archer.prototype, StealthMixin);
+module.exports = StealthMixin;
