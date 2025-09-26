@@ -1,5 +1,4 @@
-const Character = require("../Character");
-const Mage = require("../Mage");
+const Mage = require("./Mage");
 
 // Level 2: Specialized Mages
 function Archmage(name, health, strength) {
@@ -25,3 +24,5 @@ Archmage.prototype.castSpell = function(target, spellName) {
     }
     return Mage.prototype.castSpell.call(this, target); // Fallback to basic spell
 };
+
+module.exports = Archmage;
