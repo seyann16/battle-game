@@ -25,3 +25,4 @@ const PetMixin = {
 
 // Apply pets to mages
 Object.assign(Mage.prototype, PetMixin);
+module.exports = PetMixin;
