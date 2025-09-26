@@ -14,7 +14,7 @@ BattleGame.prototype.addCharacter = function(character) {
 };
 
 BattleGame.prototype.startBattle = function() {
-    console.log("=== BATTLE BEGINS ===");
+    console.log("\n=== BATTLE BEGINS ===");
 
     // Continue until only one character remains
     while (this.getAliveCharacters().length > 1) {
